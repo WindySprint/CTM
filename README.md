@@ -19,4 +19,4 @@ Here are some comparison figures of our method:
 </div>
 
 # Discussion
-The complete codes and models will be made public soon
+The complete code and models will be made public soon
