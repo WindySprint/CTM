@@ -100,9 +100,9 @@ class FSM(nn.Module):
         out = x1 + self.merge(x)
         return out
 
-class SCAUNet(nn.Module):
+class Net(nn.Module):
     def __init__(self):
-        super(SCAUNet, self).__init__()
+        super(Net, self).__init__()
         base_channel = 32
 
         self.PEM256 = PEM(base_channel)
