@@ -10,7 +10,7 @@ This repo contains the PyTorch implementation for our paper.
 4. OpenCV-Python 4.8.1.78
 5. NumPy 1.24.4
 ```
-## Checkpoints:
+## Checkpoints
 Google drive: https://drive.google.com/drive/folders/1zK2qSh3aAfrn07ntv-BtBmq2zP-W7QFP?usp=drive_link <Br>
 Baidu drive: https://pan.baidu.com/s/1vOpQ8brJkfQTWHVoZ70yrg (password: t18z)
 
