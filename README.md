@@ -1,22 +1,42 @@
-# CTM
-This is the project of paper "underwater image enhancement via cross-wise transformer network focusing on pre-post differences".
+# Underwater image enhancement via cross-wise transformer network focusing on pre-post differences
 
-# Abstract 
-The images captured underwater often suffer from color deviations and blurred details. To address these issues, many methods employ networks with an encoder/decoder structure to enhance the images. However, the direct skip connection overlooks the differences between pre- and post-features, and deep network learning introduces information loss. This paper presents an underwater image enhancement network that focuses on pre-post differences. The network utilizes a multi-scale input and output framework to facilitate the underwater image enhancement process. A novel cross-wise transformer module (CTM) is introduced to guide the interactive learning of features from different periods, thereby enhancing the emphasis on detail-degraded regions. To compensate for the information loss within the deep network, a feature supplement module (FSM) is devised for each learning stage. FSM merges the multi-scale input features, effectively enhancing the visibility of underwater images. Experimental results across several datasets demonstrate that the integrated modules yield significant enhancements in network performance. The proposed network exhibits outstanding performance in both visual comparisons and quantitative metrics. Furthermore, the network also exhibits good adaptability in additional visual tasks without the need for parameter tuning.
+This repo contains the PyTorch implementation for our paper.
 
-# Comparison Figures
-Here are some comparison figures of our method:  
-<div align=center>
-<img src="Figs/ImageNet_compare.jpg" width="70%">  
-</div>
+## Environment
+Python 3.8.18
+PyTorch 1.13.1
+Torchvision 0.14.1
+OpenCV-Python 4.8.1.78
+NumPy 1.24.4
 
-<div align=center>
-<img src="Figs/UFO_compare.jpg" width="70%">  
-</div>
+## Test
+```
+1. Clone repo
+2. Download checkpoints folder and place it in repo
+3. Put the images in your folder A with name B
+4. Change 'input_dir' to A and 'dataset' to B in test.py
+5. Run test.py
+6. Find results in 'result_dir'
+```
 
-<div align=center>
-<img src="Figs/Compare_Others.jpg" width="50%"> 
-</div>
+## Train
+```
+1. Change '  TRAIN_DIR'', 'VAL_DIR' in training.yml
+2. Run train.py
+3. Find trained model in checkpoints
+```
 
-# Discussion
-The complete code and models will be made public soon
+## Cite
+If you use our code, please cite our paper. Thanks!
+
+@article{HUANG2024112000,
+title = {Underwater image enhancement via cross-wise transformer network focusing on pre-post differences},
+journal = {Applied Soft Computing},
+pages = {112000},
+year = {2024},
+issn = {1568-4946},
+doi = {https://doi.org/10.1016/j.asoc.2024.112000}
+}
+
+## Contact
+If you have any questions, please contact: Zhixiong Huang: hzxcyanwind@mail.dlut.edu.cn
