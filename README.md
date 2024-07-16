@@ -21,7 +21,7 @@ NumPy 1.24.4
 
 ## Train
 ```
-1. Change '  TRAIN_DIR'', 'VAL_DIR' in training.yml
+1. Change 'TRAIN_DIR', 'VAL_DIR' in training.yml
 2. Run train.py
 3. Find trained model in checkpoints
 ```
