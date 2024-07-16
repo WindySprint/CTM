@@ -12,7 +12,7 @@ This repo contains the PyTorch implementation for our paper.
 ```
 ## Checkpoints
 [Google drive](https://drive.google.com/drive/folders/1zK2qSh3aAfrn07ntv-BtBmq2zP-W7QFP?usp=drive_link) <Br>
-[Baidu drive](https://pan.baidu.com/s/1vOpQ8brJkfQTWHVoZ70yrg) password: t18z
+[Baidu drive](https://pan.baidu.com/s/1vOpQ8brJkfQTWHVoZ70yrg) (password: t18z)
 
 ## Test
 ```
