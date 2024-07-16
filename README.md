@@ -3,11 +3,13 @@
 This repo contains the PyTorch implementation for our paper.
 
 ## Environment
-Python 3.8.18
-PyTorch 1.13.1
-Torchvision 0.14.1
-OpenCV-Python 4.8.1.78
-NumPy 1.24.4
+```
+1. Python 3.8.18
+2. PyTorch 1.13.1
+3. Torchvision 0.14.1
+4. OpenCV-Python 4.8.1.78
+5. NumPy 1.24.4
+```
 
 ## Test
 ```
