@@ -18,7 +18,7 @@ Baidu drive: https://pan.baidu.com/s/1vOpQ8brJkfQTWHVoZ70yrg (password: t18z)
 ```
 1. Clone repo
 2. Download checkpoints folder and place it in repo
-3. Put the images in your folder A with name B
+3. Put the images in your folder path A with folder name B
 4. Change 'input_dir' to A and 'dataset' to B in test.py
 5. Run test.py
 6. Find results in 'result_dir'
