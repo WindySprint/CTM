@@ -10,6 +10,9 @@ This repo contains the PyTorch implementation for our paper.
 4. OpenCV-Python 4.8.1.78
 5. NumPy 1.24.4
 ```
+## Checkpoints:
+Google drive: https://drive.google.com/drive/folders/1zK2qSh3aAfrn07ntv-BtBmq2zP-W7QFP?usp=drive_link
+Baidu drive: https://pan.baidu.com/s/1vOpQ8brJkfQTWHVoZ70yrg (password: t18z)
 
 ## Test
 ```
@@ -28,8 +31,9 @@ This repo contains the PyTorch implementation for our paper.
 3. Find trained model in checkpoints
 ```
 
-## Cite
+## Resources
 If you use our code, please cite our paper. Thanks!
+Paper: https://www.sciencedirect.com/science/article/pii/S1568494624007749
 ```
 @article{HUANG2024112000,
 title = {Underwater image enhancement via cross-wise transformer network focusing on pre-post differences},
