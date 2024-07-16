@@ -12,7 +12,7 @@ import numpy as np
 
 import utils
 from data_RGB import get_training_data, get_validation_data
-from Networks.model import SCAUNet
+from Networks.model import Net
 import losses
 from warmup_scheduler import GradualWarmupScheduler
 from tqdm import tqdm
@@ -46,7 +46,7 @@ if __name__ == '__main__':
     val_dir = opt.TRAINING.VAL_DIR
 
     ######### Model ###########
-    model_restoration = SCAUNet()
+    model_restoration = Net()
     model_restoration.cuda()
 
     device_ids = [i for i in range(torch.cuda.device_count())]
