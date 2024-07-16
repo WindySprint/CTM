@@ -11,7 +11,7 @@ This repo contains the PyTorch implementation for our paper.
 5. NumPy 1.24.4
 ```
 ## Checkpoints:
-Google drive: https://drive.google.com/drive/folders/1zK2qSh3aAfrn07ntv-BtBmq2zP-W7QFP?usp=drive_link
+Google drive: https://drive.google.com/drive/folders/1zK2qSh3aAfrn07ntv-BtBmq2zP-W7QFP?usp=drive_link <Br>
 Baidu drive: https://pan.baidu.com/s/1vOpQ8brJkfQTWHVoZ70yrg (password: t18z)
 
 ## Test
@@ -32,7 +32,7 @@ Baidu drive: https://pan.baidu.com/s/1vOpQ8brJkfQTWHVoZ70yrg (password: t18z)
 ```
 
 ## Resources
-If you use our code, please cite our paper. Thanks!
+If you use our code, please cite our paper. Thanks! <Br>
 Paper: https://www.sciencedirect.com/science/article/pii/S1568494624007749
 ```
 @article{HUANG2024112000,
