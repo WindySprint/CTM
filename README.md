@@ -33,7 +33,7 @@ This repo contains the PyTorch implementation for our paper.
 
 ## Resources
 If you use our code, please cite our paper. Thanks! <Br>
-Paper: https://www.sciencedirect.com/science/article/pii/S1568494624007749
+[Paper Link](https://www.sciencedirect.com/science/article/pii/S1568494624007749)
 ```
 @article{HUANG2024112000,
 title = {Underwater image enhancement via cross-wise transformer network focusing on pre-post differences},
